@@ -1,0 +1,10 @@
+{
+  "name": "attempted-lerna-npm7-peerdep-repro",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
